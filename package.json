@@ -1,0 +1,14 @@
+{
+  "name": "github-sync",
+  "main": "./lib/exports.js",
+  "version": "0.0.0",
+  "description": "An Atom package that saves your atom settings to the cloud",
+  "activationEvents": ["github-sync:sync", "github-sync:login","github-sync:logout"],
+  "repository": "none",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

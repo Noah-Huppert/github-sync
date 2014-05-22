@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Github Sync",
+          "submenu": [
+            {
+              "label": "Sync",
+              "command": "github-sync:sync"
+            },
+            {
+              "label": "Login",
+              "command": "github-sync:login"
+            },
+            {
+              "label": "Logout",
+              "command": "github-sync:logout"
+            }
+          ]
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
